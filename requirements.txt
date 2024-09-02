@@ -3,4 +3,11 @@ langchain-ollama
 langchain_experimental
 langchain-community
 langserve[all]
-pydantic==1.10.13
+pydantic
+transformers
+torch
+langchainhub
+langchain-chroma
+beautifulsoup4
+sentence_transformers
+nomic

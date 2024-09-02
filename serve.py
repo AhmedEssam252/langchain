@@ -6,7 +6,7 @@ from langchain_ollama.llms import OllamaLLM
 from langserve import add_routes
 
 # 1. Create prompt template
-system_template = "Translate the following into {language}:"
+system_template = "solve proplem of this code and write fixed code."
 prompt_template = ChatPromptTemplate.from_messages([
     ('system', system_template),
     ('user', '{text}')
