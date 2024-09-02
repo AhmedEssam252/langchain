@@ -1,5 +1,6 @@
 langchain
 langchain-ollama
-streamlit
 langchain_experimental
-
+langchain-community
+langserve[all]
+pydantic==1.10.13
